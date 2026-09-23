@@ -4,9 +4,9 @@
 
 ## Fuentes
 
+- Enunciado: `Guia - v digital.pdf`, "TP N° 0. Repaso — Superficies en $\mathbb{R}^3$".
 - Presentación: no hay (sin diapositivas propias en `Presentaciones/`).
-- Resueltos: `Guia de ejercicios-20260923/Guias resueltas/TP12 - resueltos.pdf` (⚠️ correspondencia asumida, no confirmada — ver nota en `00-indice.md`).
-- Respuestas: `Guia de ejercicios-20260923/Respuestas/RESPUESTAS TP 0.pdf`.
+- Resolución propia: `Resueltos propios/TP0 - Preliminares.md` (crear cuando se empiece a resolver).
 
 ## Teoría resumida
 

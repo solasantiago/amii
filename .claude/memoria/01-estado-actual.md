@@ -17,7 +17,6 @@ _(ninguno registrado todavía — completar a medida que se cierren temas)_
 ## Pendientes
 
 - TP7 a TP11 (P2): integrales curvilíneas, múltiples, flujo, teoremas integrales, EDO. Sin fecha de P2 todavía — actualizar acá y en `CLAUDE.md` en cuanto se confirme.
-- Confirmar a qué TP corresponde `Guias resueltas/TP12 - resueltos.pdf` (ver nota en `00-indice.md` y en `CLAUDE.md`).
 
 ## Próximo paso sugerido
 

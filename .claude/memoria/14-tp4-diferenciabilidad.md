@@ -4,9 +4,9 @@
 
 ## Fuentes
 
+- Enunciado: `Guia - v digital.pdf`, TP IV.
 - Presentación: `Presentaciones/TP4 - Diff.pdf` y `Presentaciones/TP4 - Diff - demos.pdf`.
-- Resueltos: `Guia de ejercicios-20260923/Guias resueltas/TP4 - resueltos.pdf`.
-- Respuestas: `Guia de ejercicios-20260923/Respuestas/RESPUESTAS TP IV.pdf`.
+- Resolución propia: `Resueltos propios/TP4 - Diferenciabilidad.md` (crear cuando se empiece a resolver).
 
 ## Teoría resumida
 

@@ -4,9 +4,9 @@
 
 ## Fuentes
 
+- Enunciado: `Guia - v digital.pdf`, "TP VII. Curvas — Integral de línea — Función potencial".
 - Presentación: `Presentaciones/TP7 - Int Curvas.pdf`.
-- Resueltos: `Guia de ejercicios-20260923/Guias resueltas/TP7 - resueltos.pdf`.
-- Respuestas: `Guia de ejercicios-20260923/Respuestas/RTA TP VII-  INT CURVILINEA 7-8-26.pdf`.
+- Resolución propia: `Resueltos propios/TP7 - Integral curvilinea.md` (crear cuando se empiece a resolver).
 
 ## Teoría resumida
 

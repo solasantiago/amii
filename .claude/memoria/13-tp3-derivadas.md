@@ -4,9 +4,9 @@
 
 ## Fuentes
 
+- Enunciado: `Guia - v digital.pdf`, TP III.
 - Presentación: `Presentaciones/TP3 - Derivadas.pdf`.
-- Resueltos: `Guia de ejercicios-20260923/Guias resueltas/TP3 - resueltos.pdf`.
-- Respuestas: `Guia de ejercicios-20260923/Respuestas/RESPUESTAS TP III.pdf`.
+- Resolución propia: `Resueltos propios/TP3 - Derivadas.md` (crear cuando se empiece a resolver).
 
 ## Teoría resumida
 

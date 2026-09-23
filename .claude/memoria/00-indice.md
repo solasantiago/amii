@@ -25,5 +25,3 @@ Un archivo por cada tema de la guía, con teoría resumida, errores frecuentes p
 | `19-tp9-flujo.md` | TP9 — Integrales de superficie / Flujo | P2 |
 | `20-tp10-teoremas-integrales.md` | TP10 — Teoremas integrales (Green, Stokes, Gauss) | P2 |
 | `21-tp11-edo.md` | TP11 — Ecuaciones diferenciales ordinarias | P2 |
-
-> Nota: `Guia de ejercicios-20260923/Guias resueltas/TP12 - resueltos.pdf` no tiene contraparte de presentación ni de "Respuestas" con esa numeración. Por descarte probablemente corresponda a TP0 (repaso), pero está sin confirmar — verificar al abrirlo y corregir este índice y `CLAUDE.md` si hace falta.

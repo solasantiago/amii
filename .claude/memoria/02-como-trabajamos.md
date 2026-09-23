@@ -6,12 +6,16 @@ Mixto: por defecto, resolver y explicar el ejercicio paso a paso (como un resuel
 
 ## Prioridad de fuentes
 
-1. La guía oficial (`Guia - v digital.pdf`) y las presentaciones de la cátedra: fuente de verdad de notación, orden de temas y método esperado.
-2. Los resueltos oficiales (`Guias resueltas/`): método de referencia para comparar una resolución propia.
-3. Las respuestas (`Respuestas/`): solo el resultado final, para autocorrección rápida sin ver el desarrollo.
-4. Los archivos `.claude/memoria/1x-*.md`: resumen propio por tema, construido sesión a sesión — no reemplazan al PDF, lo complementan.
+1. La guía oficial (`Guia - v digital.pdf`) y las presentaciones de la cátedra: fuente de verdad de notación, enunciados, orden de temas y método esperado.
+2. Los archivos `.claude/memoria/1x-*.md`: resumen propio por tema, construido sesión a sesión — no reemplazan al PDF, lo complementan.
 
 Ante una discrepancia, gana el PDF de la cátedra por sobre cualquier resumen propio.
+
+**No hay resueltos ni respuestas oficiales en el repo** (se sacaron deliberadamente, solo queda la guía de enunciados). Esto cambia cómo se verifica una resolución:
+
+- El desarrollo y el resultado de cada ejercicio los produce el asistente junto con el usuario, sin poder contrastarlos contra una respuesta oficial guardada en el repo.
+- Prestar más atención a la consistencia interna de la resolución (verificar resultados por un camino alternativo, casos límite, dimensiones/unidades cuando aplique) ya que no hay una respuesta de la cátedra para comparar directo.
+- Si el usuario tiene la respuesta oficial a mano (por ejemplo, la vio en el aula virtual) y no coincide con la resolución propia, revisar el desarrollo propio paso a paso en vez de asumir que el resultado propio es el correcto.
 
 ## Convenciones
 

@@ -4,9 +4,9 @@
 
 ## Fuentes
 
+- Enunciado: `Guia - v digital.pdf`, "TP VI. Polinomio de Taylor — Extremos" (20 ejercicios).
 - Presentación: `Presentaciones/TP6 - Taylor a.pdf` y `Presentaciones/TP6 - Taylor b.pdf`.
-- Resueltos: `Guia de ejercicios-20260923/Guias resueltas/TP6 - resueltos.pdf`.
-- Respuestas: `Guia de ejercicios-20260923/Respuestas/RESPUESTAS TP VI.pdf`.
+- Resolución propia: `Resueltos propios/TP6 - Taylor y extremos.md`.
 
 ## Teoría resumida
 
@@ -18,4 +18,4 @@ _(completar cuando se detecten al resolver ejercicios)_
 
 ## Estado
 
-Pendiente.
+En curso — ejercicio 1 de 20 resuelto (ver `Resueltos propios/TP6 - Taylor y extremos.md`).

@@ -4,9 +4,9 @@
 
 ## Fuentes
 
+- Enunciado: `Guia - v digital.pdf`, TP X.
 - Presentación: `Presentaciones/TP10 - Teoremas.pdf`.
-- Resueltos: `Guia de ejercicios-20260923/Guias resueltas/TP10 - resueltos.pdf`.
-- Respuestas: `Guia de ejercicios-20260923/Respuestas/RTA TP X . TEOREMAS INTEGRALES - 7-8-26.pdf`.
+- Resolución propia: `Resueltos propios/TP10 - Teoremas integrales.md` (crear cuando se empiece a resolver).
 
 ## Teoría resumida
 

@@ -4,9 +4,9 @@
 
 ## Fuentes
 
+- Enunciado: `Guia - v digital.pdf`, TP XI.
 - Presentación: `Presentaciones/TP11 - EDO 1.pdf` y `Presentaciones/TP11 - EDO 2.pdf`.
-- Resueltos: `Guia de ejercicios-20260923/Guias resueltas/TP11 - resueltos.pdf`.
-- Respuestas: `Guia de ejercicios-20260923/Respuestas/RTA TP XI PRIMERA PARTE 7-8-26.pdf` y `RTA TP XI SEGUNDA PARTE 7-8-26.pdf`.
+- Resolución propia: `Resueltos propios/TP11 - EDO.md` (crear cuando se empiece a resolver).
 
 ## Teoría resumida
 

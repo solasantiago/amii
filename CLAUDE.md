@@ -44,22 +44,22 @@ Resumen de `Estructura evaluaciones.pdf` (ciclo lectivo 2021 — la metodología
 
 ## Los 12 temas (TPs)
 
-| TP | Tema | Parcial | Presentación | Resueltos | Respuestas |
-|---|---|---|---|---|---|
-| TP0 | Preliminares / repaso | P1 | — | `TP12 - resueltos.pdf` (⚠️ a confirmar, ver nota abajo) | `RESPUESTAS TP 0.pdf` |
-| TP1 | Funciones de varias variables | P1 | `TP1 - Funciones etc.pdf` | `TP1 - resueltos.pdf` | `RESPUESTAS TP I.pdf` |
-| TP2 | Límite y continuidad | P1 | `TP2 - Limite.pdf` | `TP2 - resueltos.pdf` | `RESPUESTAS TP II.pdf` |
-| TP3 | Derivadas parciales y direccionales | P1 | `TP3 - Derivadas.pdf` | `TP3 - resueltos.pdf` | `RESPUESTAS TP III.pdf` |
-| TP4 | Diferenciabilidad | P1 | `TP4 - Diff.pdf` / `TP4 - Diff - demos.pdf` | `TP4 - resueltos.pdf` | `RESPUESTAS TP IV.pdf` |
-| TP5 | Funciones compuestas (regla de la cadena) | P1 | `TP5 - Compuestas.pdf` | `TP5 - resueltos.pdf` (+ img "Otra forma ej 10") | `RESPUESTAS TP V.pdf` |
-| TP6 | Taylor y extremos | P1 | `TP6 - Taylor a.pdf` / `b.pdf` | `TP6 - resueltos.pdf` | `RESPUESTAS TP VI.pdf` |
-| TP7 | Integrales curvilíneas | P2 | `TP7 - Int Curvas.pdf` | `TP7 - resueltos.pdf` | `RTA TP VII - INT CURVILINEA...pdf` |
-| TP8 | Integrales múltiples | P2 | `TP8 - Multiples a.pdf` / `b.pdf` | `TP8 - resueltos.pdf` | `RTA TP VIII - INT MULTIPLES...pdf` |
-| TP9 | Integrales de superficie / Flujo | P2 | `TP9 - Flujo.pdf` | `TP9 - resueltos.pdf` | `RTA TP IX . INT SUP - FLUJO...pdf` |
-| TP10 | Teoremas integrales (Green, Stokes, Gauss) | P2 | `TP10 - Teoremas.pdf` | `TP10 - resueltos.pdf` | `RTA TP X . TEOREMAS INTEGRALES...pdf` |
-| TP11 | Ecuaciones diferenciales ordinarias (EDO) | P2 | `TP11 - EDO 1.pdf` / `2.pdf` | `TP11 - resueltos.pdf` | `RTA TP XI PRIMERA/SEGUNDA PARTE...pdf` |
+| TP | Tema | Parcial | Presentación |
+|---|---|---|---|
+| TP0 | Preliminares / repaso | P1 | — |
+| TP1 | Funciones de varias variables | P1 | `TP1 - Funciones etc.pdf` |
+| TP2 | Límite y continuidad | P1 | `TP2 - Limite.pdf` |
+| TP3 | Derivadas parciales y direccionales | P1 | `TP3 - Derivadas.pdf` |
+| TP4 | Diferenciabilidad | P1 | `TP4 - Diff.pdf` / `TP4 - Diff - demos.pdf` |
+| TP5 | Funciones compuestas (regla de la cadena) | P1 | `TP5 - Compuestas.pdf` |
+| TP6 | Taylor y extremos | P1 | `TP6 - Taylor a.pdf` / `b.pdf` |
+| TP7 | Integrales curvilíneas | P2 | `TP7 - Int Curvas.pdf` |
+| TP8 | Integrales múltiples | P2 | `TP8 - Multiples a.pdf` / `b.pdf` |
+| TP9 | Integrales de superficie / Flujo | P2 | `TP9 - Flujo.pdf` |
+| TP10 | Teoremas integrales (Green, Stokes, Gauss) | P2 | `TP10 - Teoremas.pdf` |
+| TP11 | Ecuaciones diferenciales ordinarias (EDO) | P2 | `TP11 - EDO 1.pdf` / `2.pdf` |
 
-> ⚠️ `Guias resueltas/TP12 - resueltos.pdf` no tiene presentación ni "Respuestas" con esa numeración. Por descarte probablemente sea el resuelto de TP0, pero no está confirmado — verificar al abrirlo y corregir esta tabla y `00-indice.md`.
+Los enunciados de ejercicios de cada TP están dentro de `Guia - v digital.pdf` (guía única, sin resueltos ni respuestas oficiales en el repo — ver más abajo).
 
 ## Detalle teórico por tema
 
@@ -67,10 +67,9 @@ El contenido matemático fino (definiciones, teoremas, métodos de resolución, 
 
 ## Documentos de referencia
 
-- **`Guia de ejercicios-20260923/Guia - v digital.pdf`**: guía de ejercicios completa de la cátedra — fuente de verdad de los enunciados.
-- **`Guia de ejercicios-20260923/Guias resueltas/`**: resueltos oficiales, un PDF por TP.
-- **`Guia de ejercicios-20260923/Respuestas/`**: solo resultados finales (sin desarrollo), para autocorrección rápida.
+- **`Guia - v digital.pdf`**: guía de ejercicios completa de la cátedra — fuente de verdad de los enunciados. **No hay resueltos ni respuestas oficiales en el repo**: la autocorrección se hace resolviendo con el asistente y guardando el desarrollo propio en `Resueltos propios/`.
 - **`Presentaciones/`**: teoría de la cátedra en diapositivas, por TP.
+- **`Resueltos propios/`**: un archivo Markdown por TP con las resoluciones propias (GitHub renderiza LaTeX en Markdown con `$...$` / `$$...$$`, no hace falta compilar nada).
 - **`Estructura evaluaciones.pdf`**: régimen de evaluación y calificación (ver resumen arriba).
 - **`.claude/memoria/`**: memoria persistente del asistente (índice, estado, forma de trabajo, y resumen por TP).
 

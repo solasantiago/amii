@@ -4,9 +4,9 @@
 
 ## Fuentes
 
+- Enunciado: `Guia - v digital.pdf`, TP II.
 - Presentación: `Presentaciones/TP2 - Limite.pdf`.
-- Resueltos: `Guia de ejercicios-20260923/Guias resueltas/TP2 - resueltos.pdf`.
-- Respuestas: `Guia de ejercicios-20260923/Respuestas/RESPUESTAS TP II.pdf`.
+- Resolución propia: `Resueltos propios/TP2 - Limite y continuidad.md` (crear cuando se empiece a resolver).
 
 ## Teoría resumida
 

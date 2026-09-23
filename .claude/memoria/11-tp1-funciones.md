@@ -4,9 +4,9 @@
 
 ## Fuentes
 
+- Enunciado: `Guia - v digital.pdf`, TP I.
 - Presentación: `Presentaciones/TP1 - Funciones etc.pdf`.
-- Resueltos: `Guia de ejercicios-20260923/Guias resueltas/TP1 - resueltos.pdf`.
-- Respuestas: `Guia de ejercicios-20260923/Respuestas/RESPUESTAS TP I.pdf`.
+- Resolución propia: `Resueltos propios/TP1 - Funciones.md` (crear cuando se empiece a resolver).
 
 ## Teoría resumida
 

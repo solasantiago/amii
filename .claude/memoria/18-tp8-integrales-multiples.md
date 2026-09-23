@@ -4,9 +4,9 @@
 
 ## Fuentes
 
+- Enunciado: `Guia - v digital.pdf`, TP VIII.
 - Presentación: `Presentaciones/TP8 - Multiples a.pdf` y `Presentaciones/TP8 - Multiples b.pdf`.
-- Resueltos: `Guia de ejercicios-20260923/Guias resueltas/TP8 - resueltos.pdf`.
-- Respuestas: `Guia de ejercicios-20260923/Respuestas/RTA TP VIII-  INT MULTIPLES- 7-8-26.pdf`.
+- Resolución propia: `Resueltos propios/TP8 - Integrales multiples.md` (crear cuando se empiece a resolver).
 
 ## Teoría resumida
 

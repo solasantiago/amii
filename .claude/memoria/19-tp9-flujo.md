@@ -4,9 +4,9 @@
 
 ## Fuentes
 
+- Enunciado: `Guia - v digital.pdf`, TP IX.
 - Presentación: `Presentaciones/TP9 - Flujo.pdf`.
-- Resueltos: `Guia de ejercicios-20260923/Guias resueltas/TP9 - resueltos.pdf`.
-- Respuestas: `Guia de ejercicios-20260923/Respuestas/RTA TP IX . INT SUP - FLUJO - 7-8-26.pdf`.
+- Resolución propia: `Resueltos propios/TP9 - Flujo.md` (crear cuando se empiece a resolver).
 
 ## Teoría resumida
 

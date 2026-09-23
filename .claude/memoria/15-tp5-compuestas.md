@@ -4,9 +4,9 @@
 
 ## Fuentes
 
+- Enunciado: `Guia - v digital.pdf`, "TP V. Funciones compuestas e implícitas".
 - Presentación: `Presentaciones/TP5 - Compuestas.pdf`.
-- Resueltos: `Guia de ejercicios-20260923/Guias resueltas/TP5 - resueltos.pdf` (+ imagen complementaria `TP5 - Otra forma ej 10.png`, método alternativo para el ejercicio 10).
-- Respuestas: `Guia de ejercicios-20260923/Respuestas/RESPUESTAS TP V.pdf`.
+- Resolución propia: `Resueltos propios/TP5 - Compuestas.md` (crear cuando se empiece a resolver).
 
 ## Teoría resumida
 
