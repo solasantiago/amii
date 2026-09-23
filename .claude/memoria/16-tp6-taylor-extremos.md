@@ -18,4 +18,4 @@ _(completar cuando se detecten al resolver ejercicios)_
 
 ## Estado
 
-En curso — ejercicio 1 de 20 resuelto (ver `Resueltos propios/TP6 - Taylor y extremos.md`).
+En curso — ejercicios 1 a 6 de 20 resueltos (ver `Resueltos propios/TP6 - Taylor y extremos.md`).

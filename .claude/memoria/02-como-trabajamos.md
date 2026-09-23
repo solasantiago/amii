@@ -23,6 +23,13 @@ Ante una discrepancia, gana el PDF de la cátedra por sobre cualquier resumen pr
 - Al resolver un ejercicio de la guía, citar de qué TP y número es (ej. "TP6, ejercicio 4b") para poder ubicarlo después.
 - Al explicar teoría, dejar explícito qué parte es definición/enunciado formal y qué parte es interpretación o ejemplo — en los parciales los ítems teóricos evalúan justamente esa distinción (ver `CLAUDE.md`, sección de régimen de evaluación).
 
+### Formato de un ejercicio resuelto en `Resueltos propios/`
+
+- Encabezado `## Ejercicio N` con el **enunciado completo** tal como figura en la guía (incluyendo, si los tiene, los incisos a), b), c)... dentro del mismo enunciado).
+- Si el ejercicio tiene incisos, la resolución de cada uno va bajo un encabezado de nivel inferior (`### a) ...`) que **repite textualmente el subenunciado** de ese inciso (no una paráfrasis ni un título descriptivo propio) — así el heading sirve para ubicar de qué parte del enunciado original se trata.
+- Si el ejercicio no tiene incisos, la resolución va directamente bajo `### Resolución`.
+- Las fórmulas en `$...$` / `$$...$$` para que rendericen en GitHub.
+
 ## Actualización de la memoria
 
 Al cerrar un tema o detectar un error recurrente propio, actualizar el archivo `1x-*.md` de ese TP y, si corresponde, mover el tema de "en curso" a "cerrado" en `01-estado-actual.md`.
