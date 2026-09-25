@@ -33,3 +33,5 @@ Ante una discrepancia, gana el PDF de la cátedra por sobre cualquier resumen pr
 ## Actualización de la memoria
 
 Al cerrar un tema o detectar un error recurrente propio, actualizar el archivo `1x-*.md` de ese TP y, si corresponde, mover el tema de "en curso" a "cerrado" en `01-estado-actual.md`.
+
+Al cerrar cada sesión se actualiza `lumen.json` (nivel y evidencia de cada tema trabajado, `sesiones`, `actualizado`) y se valida antes del push — ver sección "Lumen" en `CLAUDE.md`.

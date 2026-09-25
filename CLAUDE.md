@@ -76,3 +76,77 @@ El contenido matemático fino (definiciones, teoremas, métodos de resolución, 
 ## Estado de avance
 
 El estado canónico (temas cerrados, en curso, pendientes y próximo paso) está en `.claude/memoria/01-estado-actual.md`, que se carga automáticamente al inicio. Se actualiza al final de cada sesión que avance algo.
+
+## Lumen
+
+Este repo alimenta a Lumen (https://github.com/solasantiago/lumen), la web que muestra el progreso de todas las materias. Lumen lee **`lumen.json`** (raíz del repo, contrato `lumen/materia@1`): es la fuente de verdad del **progreso** (nivel por tema, repasos, sesiones, fechas de evaluación). El **detalle** de cada tema (teoría, métodos, errores frecuentes) sigue viviendo en `.claude/memoria/1x-*.md`, y los ejercicios resueltos en `Resueltos propios/`. Contrato completo: https://github.com/solasantiago/lumen/blob/main/docs/contrato.md
+
+### Cómo es una sesión
+
+**Al empezar**
+
+1. Leé `lumen.json` y `.claude/memoria/01-estado-actual.md`.
+2. Contá en dos o tres líneas cómo viene la materia: porcentaje, próxima evaluación y cuántos días faltan, y repasos vencidos (`proximo_repaso` ≤ hoy).
+3. Proponé el foco de la sesión: primero los repasos vencidos, después los temas de la próxima evaluación con nivel más bajo y unidad de más peso. Si el estudiante trae otro tema, seguí el suyo.
+
+**Durante**
+
+- El estilo por defecto sigue siendo el de `.claude/memoria/02-como-trabajamos.md` (resolver paso a paso, salvo que se pidan pistas). Para **medir** un tema y poder subirle el nivel, preguntá antes de explicar: una pregunta conceptual y un ejercicio corto que el estudiante resuelva solo. Un ejercicio resuelto en modo guiado cuenta como "seguir un ejercicio resuelto" (nivel 2), no como "resolver sin mirar la solución" (nivel 3).
+- Los ejercicios resueltos (de la guía, de modelos de parcial o propuestos) van a `Resueltos propios/`, con el formato de `02-como-trabajamos.md`. No se usa `practica/`.
+- Lo que cueste se anota en dos lugares: una línea concreta en `notas` del tema en `lumen.json` ("confunde X con Y") y el detalle en "Errores frecuentes propios" del `.claude/memoria/1x-*.md` correspondiente.
+
+**Al cerrar** (siempre, aunque la sesión haya sido corta)
+
+1. Actualizá el `nivel` de cada tema trabajado **solo con evidencia** (tabla de abajo).
+2. Actualizá `evidencia`: `ejercicios`, `autoevaluaciones`, `ultimo_repaso` (hoy), `proximo_repaso` y `minutos`.
+3. Agregá la sesión a `sesiones` (`fecha`, `minutos`, `tipo`, `temas`).
+4. Poné `actualizado` con la fecha y hora actuales (ISO 8601, -03:00; el estudiante está en Argentina).
+5. Actualizá también `.claude/memoria/01-estado-actual.md` y el `1x-*.md` de cada TP trabajado.
+6. Validá y, si el estudiante está de acuerdo, hacé commit y push:
+   ```bash
+   curl -fsSL https://raw.githubusercontent.com/solasantiago/lumen/main/scripts/validar.mjs -o /tmp/validar-lumen.mjs
+   node /tmp/validar-lumen.mjs lumen.json
+   ```
+7. Resumí qué cambió: temas que subieron o bajaron de nivel y el próximo repaso.
+
+### Niveles
+
+| Nivel | Nombre | Cuándo asignarlo | Evidencia mínima |
+|:-:|---|---|---|
+| 0 | No visto | Todavía no se estudió. | — |
+| 1 | Visto | Leyó la teoría o fue a la clase; lo reconoce pero no lo explica. | `ultimo_repaso` |
+| 2 | Entendido | Lo explica con sus palabras y sigue un ejercicio resuelto. | respondió bien preguntas de comprensión |
+| 3 | Practicado | Resuelve ejercicios de la guía sin mirar la solución. | `ejercicios` con ≥ 70 % bien |
+| 4 | Dominado | Resuelve ejercicios tipo parcial sin ayuda y lo sostuvo en un repaso posterior. | `autoevaluaciones` ≥ 0,7 en un repaso a 7 días o más del nivel 3 |
+
+- Nunca subas un nivel sin evidencia. Se sube de a uno por sesión, salvo evidencia contundente (un simulacro completo bien resuelto).
+- Si falla en un repaso lo que antes resolvía, bajá un nivel y reprogramá.
+- Próximo repaso según el nivel resultante: 1 → 2 días, 2 → 4 días, 3 → 7 días, 4 → 21 días.
+
+### Reglas de `lumen.json`
+
+- Los `id` de unidades y temas son estables. Si un tema se divide, el original conserva su id.
+- No borres temas con progreso. Si un tema no está en el programa pero la cátedra lo da (en la guía o en las presentaciones), agregalo con un id nuevo en la unidad que corresponda.
+- `evaluaciones` va en orden cronológico. Pedí las fechas de parciales apenas se conozcan (P2 sigue en `null`); cuando llegue la nota, completá `nota` y `estado`.
+- `aprobacion` ya tiene el régimen completo de `Estructura evaluaciones.pdf`; si la cátedra lo cambia, actualizalo ahí y en la sección "Régimen de evaluación" de arriba.
+- Lo que quieras guardar para vos va en `extra`; el detalle de teoría y errores frecuentes, en `.claude/memoria/1x-*.md`.
+- El workflow `.github/workflows/lumen.yml` valida `lumen.json` en cada push a `main` y avisa a Lumen si existe el secret `LUMEN_DISPATCH_TOKEN` (sin él, Lumen sincroniza solo cada 6 horas).
+
+### TP → unidades de `lumen.json`
+
+La numeración de unidades de `lumen.json` sigue el programa analítico, no la de los TP: usá esta tabla para saber dónde anotar el progreso.
+
+| TP (guía) | Tema | Unidad en `lumen.json` | Parcial |
+|---|---|---|---|
+| TP0 | Repaso: superficies en R³ | `u1` (tema `u1-repaso-planos-cuadricas`) | P1 |
+| TP1 | Topología, funciones, curvas y superficies | `u1` | P1 |
+| TP2 | Límite y continuidad | `u1` | P1 |
+| TP3 | Derivabilidad: recta tangente y plano normal | `u2` | P1 |
+| TP4 | Diferenciabilidad: plano tangente y recta normal | `u3` | P1 |
+| TP5 | Funciones compuestas e implícitas | `u4` | P1 |
+| TP6 | Taylor y extremos | `u5` | P1 |
+| TP7 | Curvas, integral de línea, función potencial | `u6` | P2 |
+| TP8 | Integrales múltiples | `u7` | P2 |
+| TP9 | Integrales de superficie / flujo | `u8` | P2 |
+| TP10 | Teoremas integrales (Green, Gauss, Stokes) | `u9` | P2 |
+| TP11 | EDO (en la guía: TP XI 1ª parte y TP XII 2ª parte) | `edo1` (1ª parte) y `edo2` (2ª parte) | P2 |

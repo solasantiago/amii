@@ -14,7 +14,7 @@ _(ninguno registrado todavía — completar a medida que se cierren temas)_
 
 ## Temas en curso
 
-- TP0 a TP6, de cara a P1. Sin detalle fino registrado todavía por tema — ir completando `10-tp0-*.md` a `16-tp6-*.md` a medida que se trabaja cada uno.
+- TP0 a TP6, de cara a P1. Asistió a todas las clases de TP0–TP6; conocimiento superficial, y hasta el 24/09 no había resuelto ningún ejercicio solo (TP6 ej. 1–6 fueron guiados). En `lumen.json` todos los temas de `u1`–`u5` están en nivel 1. Ir completando `10-tp0-*.md` a `16-tp6-*.md` a medida que se trabaja cada uno.
 
 ## Pendientes
 

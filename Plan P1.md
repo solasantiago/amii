@@ -38,22 +38,20 @@ Reglas: un ítem por vez · timer en el celular · si te trabás más de 5 min, 
 
 ## Horario
 
-### Jueves a la noche
+### Jueves a la noche (reajustado a las 22:50: se arrancó más tarde)
 
 | Hora | Bloque |
 |---|---|
-| 21:40 – 22:15 | **1 · E1** (arrancamos por el más mecánico) |
-| 22:15 – 22:20 | pausa |
-| 22:20 – 23:05 | **2 · E4** |
-| 23:05 – 23:20 | pausa larga (comer algo) |
-| 23:20 – 00:05 | **3 · T2** |
-| 00:05 – 00:10 | pausa |
-| 00:10 – 00:50 | **4 · T1** |
-| 00:50 – 01:05 | pausa larga |
-| 01:05 – 01:50 | **5 · E2** |
-| 01:50 – 01:55 | pausa |
-| 01:55 – 02:40 | **6 · E3** |
-| 02:40 – 03:00 | cierre: actualizar el checklist y armar la hoja de repaso |
+| 23:00 – 23:35 | **1 · E1** |
+| 23:35 – 23:40 | pausa |
+| 23:40 – 00:25 | **2 · E4** |
+| 00:25 – 00:35 | pausa (comer algo) |
+| 00:35 – 01:15 | **3 · T2** |
+| 01:15 – 01:20 | pausa |
+| 01:20 – 02:00 | **4 · T1** |
+| 02:00 – 02:10 | pausa |
+| 02:10 – 02:50 | **5 · E2** |
+| 02:50 – 03:00 | cierre: actualizar el checklist y `lumen.json` |
 | **03:00** | **a dormir** |
 
 ### Viernes
@@ -61,7 +59,8 @@ Reglas: un ítem por vez · timer en el celular · si te trabás más de 5 min, 
 | Hora | Bloque |
 |---|---|
 | ~12:00 | despertar (9 h de sueño) |
-| 13:00 – 15:30 | rehacer solos los ítems 🟡 y 🔴 |
+| 13:00 – 13:45 | **6 · E3** (pasó de la noche al viernes) |
+| 13:45 – 15:30 | rehacer solos los ítems 🟡 y 🔴 |
 | 15:30 – 16:30 | vuelta rápida por los 6 tipos (solo el planteo) + hoja de repaso |
 | 16:30 | cortar: comer, preparar lapicera (sin lápiz) y documento, viajar |
 | **19:00** | **P1** |

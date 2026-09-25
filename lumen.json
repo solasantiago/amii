@@ -1,0 +1,501 @@
+{
+  "esquema": "lumen/materia@1",
+  "id": "analisis-matematico-2",
+  "nombre": "Análisis Matemático II",
+  "abreviatura": "AM2",
+  "actualizado": "2026-09-24T22:55:00-03:00",
+  "programa": {
+    "plan": "2023",
+    "anio_programa": 2026,
+    "nivel": 2,
+    "area": "Matemática",
+    "bloque": "Formación Básica Homogénea",
+    "horas_reloj": 120,
+    "horas_catedra": 160,
+    "modalidad": "Cuatrimestral",
+    "fuente": "Programa analítico de Análisis Matemático II, UDB Matemática, 2026"
+  },
+  "unidades": [
+    {
+      "id": "edo1",
+      "numero": "X·1",
+      "nombre": "Ecuaciones diferenciales (1ª parte)",
+      "peso": 2,
+      "temas": [
+        {
+          "id": "edo1-tipos-soluciones-problemas-valor",
+          "nombre": "Tipos de soluciones y problemas de valor inicial",
+          "nivel": 0
+        },
+        {
+          "id": "edo1-edo-variables-separables",
+          "nombre": "EDO de variables separables",
+          "nivel": 0
+        },
+        {
+          "id": "edo1-edo-lineales-primer-orden",
+          "nombre": "EDO lineales de primer orden",
+          "nivel": 0
+        },
+        {
+          "id": "edo1-edo-homogeneas",
+          "nombre": "EDO homogéneas",
+          "nivel": 0
+        },
+        {
+          "id": "edo1-ecuacion-diferencial-familia-curvas",
+          "nombre": "Ecuación diferencial de una familia de curvas",
+          "nivel": 0
+        },
+        {
+          "id": "edo1-trayectorias-ortogonales",
+          "nombre": "Trayectorias ortogonales",
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": "u1",
+      "numero": "I",
+      "nombre": "Funciones de varias variables: límite y continuidad",
+      "peso": 4,
+      "temas": [
+        {
+          "id": "u1-topologia-rn-distancia-entornos",
+          "nombre": "Topología en Rⁿ: distancia, entornos, puntos y conjuntos",
+          "nivel": 1
+        },
+        {
+          "id": "u1-campos-escalares-vectoriales-dominio",
+          "nombre": "Campos escalares y vectoriales: dominio, imagen y gráfica",
+          "nivel": 1
+        },
+        {
+          "id": "u1-conjuntos-nivel",
+          "nombre": "Conjuntos de nivel",
+          "nivel": 1
+        },
+        {
+          "id": "u1-limite-campos-iterados-restringidos",
+          "nombre": "Límite de campos: iterados y restringidos a trayectorias",
+          "nivel": 1
+        },
+        {
+          "id": "u1-continuidad-campos-escalares-vectoriales",
+          "nombre": "Continuidad de campos escalares y vectoriales",
+          "nivel": 1
+        },
+        {
+          "id": "u1-curvas-espacio-ecuacion-vectorial",
+          "nombre": "Curvas en el espacio: ecuación vectorial y paramétricas",
+          "nivel": 1
+        },
+        {
+          "id": "u1-superficies-ecuaciones-vectorial-cartesiana",
+          "nombre": "Superficies: ecuaciones vectorial y cartesiana",
+          "nivel": 1
+        },
+        {
+          "id": "u1-repaso-planos-cuadricas",
+          "nombre": "Repaso: planos, superficies cuádricas e intersecciones en R³ (TP0)",
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "numero": "II",
+      "nombre": "Derivabilidad",
+      "peso": 2,
+      "temas": [
+        {
+          "id": "u2-derivada-funcion-vectorial-variable",
+          "nombre": "Derivada de una función vectorial de una variable",
+          "nivel": 1
+        },
+        {
+          "id": "u2-punto-regular-recta-tangente",
+          "nombre": "Punto regular, recta tangente y plano normal a una curva",
+          "nivel": 1
+        },
+        {
+          "id": "u2-derivadas-parciales-direccionales-respecto",
+          "nombre": "Derivadas parciales, direccionales y respecto de un vector",
+          "nivel": 1
+        },
+        {
+          "id": "u2-interpretacion-geometrica-derivadas",
+          "nombre": "Interpretación geométrica de las derivadas",
+          "nivel": 1
+        },
+        {
+          "id": "u2-teorema-valor-medio",
+          "nombre": "Teorema del valor medio",
+          "nivel": 1
+        },
+        {
+          "id": "u2-derivadas-sucesivas-teorema-schwarz",
+          "nombre": "Derivadas sucesivas y teorema de Schwarz",
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "numero": "III",
+      "nombre": "Diferenciabilidad",
+      "peso": 2,
+      "temas": [
+        {
+          "id": "u3-diferenciabilidad-funciones-rn-rm",
+          "nombre": "Diferenciabilidad de funciones de Rⁿ en Rᵐ",
+          "nivel": 1
+        },
+        {
+          "id": "u3-gradiente-matriz-jacobiana",
+          "nombre": "Gradiente y matriz jacobiana",
+          "nivel": 1
+        },
+        {
+          "id": "u3-condicion-suficiente-derivadas-parciales",
+          "nombre": "Condición suficiente: derivadas parciales continuas",
+          "nivel": 1
+        },
+        {
+          "id": "u3-plano-tangente-recta-normal",
+          "nombre": "Plano tangente y recta normal a una superficie",
+          "nivel": 1
+        },
+        {
+          "id": "u3-aproximacion-lineal-diferencial-total",
+          "nombre": "Aproximación lineal y diferencial total",
+          "nivel": 1
+        },
+        {
+          "id": "u3-derivada-direccional-maxima-propiedades",
+          "nombre": "Derivada direccional máxima y propiedades del gradiente",
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "numero": "IV",
+      "nombre": "Funciones compuestas e implícitas",
+      "peso": 2,
+      "temas": [
+        {
+          "id": "u4-composicion-funciones",
+          "nombre": "Composición de funciones",
+          "nivel": 1
+        },
+        {
+          "id": "u4-regla-cadena",
+          "nombre": "Regla de la cadena",
+          "nivel": 1
+        },
+        {
+          "id": "u4-teorema-dini-funcion-implicita",
+          "nombre": "Teorema de Dini (función implícita)",
+          "nivel": 1
+        },
+        {
+          "id": "u4-curvas-superficies-definidas-implicitamente",
+          "nombre": "Curvas y superficies definidas implícitamente",
+          "nivel": 1
+        },
+        {
+          "id": "u4-gradiente-perpendicular-conjuntos-nivel",
+          "nombre": "Gradiente perpendicular a los conjuntos de nivel",
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": "u5",
+      "numero": "V",
+      "nombre": "Polinomio de Taylor y extremos",
+      "peso": 2,
+      "temas": [
+        {
+          "id": "u5-diferenciales-sucesivos-formula-taylor",
+          "nombre": "Diferenciales sucesivos y fórmula de Taylor",
+          "nivel": 1,
+          "evidencia": {
+            "ultimo_repaso": "2026-09-23",
+            "proximo_repaso": "2026-09-25"
+          },
+          "notas": "TP6 ej. 1–6 vistos en modo guiado (23/09); todavía sin ejercicios resueltos solo."
+        },
+        {
+          "id": "u5-extremos-relativos-puntos-estacionarios",
+          "nombre": "Extremos relativos y puntos estacionarios",
+          "nivel": 1
+        },
+        {
+          "id": "u5-condicion-suficiente-matriz-hessiana",
+          "nombre": "Condición suficiente: matriz hessiana",
+          "nivel": 1
+        },
+        {
+          "id": "u5-extremos-absolutos",
+          "nombre": "Extremos absolutos",
+          "nivel": 1
+        },
+        {
+          "id": "u5-extremos-ligados-multiplicadores-lagrange",
+          "nombre": "Extremos ligados: multiplicadores de Lagrange",
+          "nivel": 1
+        }
+      ]
+    },
+    {
+      "id": "u6",
+      "numero": "VI",
+      "nombre": "Integrales de línea",
+      "peso": 3,
+      "temas": [
+        {
+          "id": "u6-longitud-arco-diferencial-arco",
+          "nombre": "Longitud de arco y diferencial de arco",
+          "nivel": 0
+        },
+        {
+          "id": "u6-integral-linea-campos-escalares",
+          "nombre": "Integral de línea de campos escalares",
+          "nivel": 0
+        },
+        {
+          "id": "u6-integral-linea-campos-vectoriales",
+          "nombre": "Integral de línea de campos vectoriales: trabajo",
+          "nivel": 0
+        },
+        {
+          "id": "u6-independencia-camino",
+          "nombre": "Independencia del camino",
+          "nivel": 0
+        },
+        {
+          "id": "u6-funcion-potencial-existencia-calculo",
+          "nombre": "Función potencial: existencia y cálculo",
+          "nivel": 0
+        },
+        {
+          "id": "u6-rotor-campos-irrotacionales-conservativos",
+          "nombre": "Rotor, campos irrotacionales y conservativos",
+          "nivel": 0
+        },
+        {
+          "id": "u6-triedro-intrinseco-curvaturas",
+          "nombre": "Triedro intrínseco y curvaturas de flexión y torsión",
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": "u7",
+      "numero": "VII",
+      "nombre": "Integrales múltiples",
+      "peso": 4,
+      "temas": [
+        {
+          "id": "u7-integrales-dobles-definicion-calculo",
+          "nombre": "Integrales dobles: definición y cálculo",
+          "nivel": 0
+        },
+        {
+          "id": "u7-calculo-areas-volumenes",
+          "nombre": "Cálculo de áreas y volúmenes",
+          "nivel": 0
+        },
+        {
+          "id": "u7-cambio-variables-integrales-dobles",
+          "nombre": "Cambio de variables en integrales dobles: coordenadas polares",
+          "nivel": 0
+        },
+        {
+          "id": "u7-integrales-triples",
+          "nombre": "Integrales triples",
+          "nivel": 0
+        },
+        {
+          "id": "u7-coordenadas-cilindricas-esfericas",
+          "nombre": "Coordenadas cilíndricas y esféricas",
+          "nivel": 0
+        },
+        {
+          "id": "u7-aplicaciones-fisicas-masa-centro",
+          "nombre": "Aplicaciones físicas: masa, centro de masa y momentos",
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": "u8",
+      "numero": "VIII",
+      "nombre": "Integrales de superficie",
+      "peso": 2,
+      "temas": [
+        {
+          "id": "u8-superficies-regulares-area-superficie",
+          "nombre": "Superficies regulares y área de una superficie",
+          "nivel": 0
+        },
+        {
+          "id": "u8-integral-superficie-campo-escalar",
+          "nombre": "Integral de superficie de un campo escalar",
+          "nivel": 0
+        },
+        {
+          "id": "u8-superficies-orientables",
+          "nombre": "Superficies orientables",
+          "nivel": 0
+        },
+        {
+          "id": "u8-flujo-campo-vectorial",
+          "nombre": "Flujo de un campo vectorial",
+          "nivel": 0
+        },
+        {
+          "id": "u8-aplicaciones-integrales-superficie",
+          "nombre": "Aplicaciones de las integrales de superficie",
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": "u9",
+      "numero": "IX",
+      "nombre": "Teoremas integrales",
+      "peso": 3,
+      "temas": [
+        {
+          "id": "u9-divergencia-campo-vectorial",
+          "nombre": "Divergencia de un campo vectorial",
+          "nivel": 0
+        },
+        {
+          "id": "u9-teorema-gauss-divergencia",
+          "nombre": "Teorema de Gauss (de la divergencia)",
+          "nivel": 0
+        },
+        {
+          "id": "u9-campos-solenoidales",
+          "nombre": "Campos solenoidales",
+          "nivel": 0
+        },
+        {
+          "id": "u9-teorema-green",
+          "nombre": "Teorema de Green",
+          "nivel": 0
+        },
+        {
+          "id": "u9-teorema-stokes-rotor",
+          "nombre": "Teorema de Stokes (del rotor)",
+          "nivel": 0
+        },
+        {
+          "id": "u9-funcion-potencial-regiones-multiplemente",
+          "nombre": "Función potencial en regiones múltiplemente conexas",
+          "nivel": 0
+        }
+      ]
+    },
+    {
+      "id": "edo2",
+      "numero": "X·2",
+      "nombre": "Ecuaciones diferenciales (2ª parte)",
+      "peso": 3,
+      "temas": [
+        {
+          "id": "edo2-edo-totales-exactas",
+          "nombre": "EDO totales exactas",
+          "nivel": 0
+        },
+        {
+          "id": "edo2-lineas-campo",
+          "nombre": "Líneas de campo",
+          "nivel": 0
+        },
+        {
+          "id": "edo2-lineas-campo-equipotenciales-campos",
+          "nombre": "Líneas de campo y equipotenciales de campos conservativos",
+          "nivel": 0
+        },
+        {
+          "id": "edo2-edo-lineales-segundo-orden",
+          "nombre": "EDO lineales de segundo orden: homogénea y wronskiano",
+          "nivel": 0
+        },
+        {
+          "id": "edo2-coeficientes-constantes-solucion-homogenea",
+          "nombre": "Coeficientes constantes: solución de la homogénea",
+          "nivel": 0
+        },
+        {
+          "id": "edo2-metodo-coeficientes-indeterminados",
+          "nombre": "Método de coeficientes indeterminados",
+          "nivel": 0
+        },
+        {
+          "id": "edo2-metodo-variacion-parametros",
+          "nombre": "Método de variación de parámetros",
+          "nivel": 0
+        },
+        {
+          "id": "edo2-sistemas-edo-lineales-coeficientes",
+          "nombre": "Sistemas de EDO lineales con coeficientes constantes",
+          "nivel": 0
+        }
+      ]
+    }
+  ],
+  "evaluaciones": [
+    {
+      "id": "p1",
+      "nombre": "1er parcial",
+      "tipo": "parcial",
+      "fecha": "2026-09-25",
+      "unidades": [
+        "u1",
+        "u2",
+        "u3",
+        "u4",
+        "u5"
+      ],
+      "nota": null,
+      "estado": "pendiente"
+    },
+    {
+      "id": "p2",
+      "nombre": "2do parcial",
+      "tipo": "parcial",
+      "fecha": null,
+      "unidades": [
+        "u6",
+        "u7",
+        "u8",
+        "u9",
+        "edo1",
+        "edo2"
+      ],
+      "nota": null,
+      "estado": "pendiente"
+    }
+  ],
+  "aprobacion": {
+    "promocion": {
+      "nota_minima": 8,
+      "descripcion": "Aprobación directa: ambos parciales (2 ítems teóricos + 4 prácticos cada uno) con 8D o más, que se logra con 4 de los 6 ítems bien resueltos, al menos 1 teórico. Nota final sin recuperar, según la suma de los dos parciales: 16D → 8, 17D o 18D → 9, 19D o 20D → 10. Si hubo recuperación (complementaria o completa): 8."
+    },
+    "regularizacion": {
+      "nota_minima": 6,
+      "descripcion": "Firma de TP (aprobación no directa, con examen final): ambos parciales con 6 o más, que se logra con 2 de los 4 ítems prácticos bien resueltos; los teóricos no cuentan."
+    },
+    "notas": "Fuente: Estructura evaluaciones.pdf (ciclo lectivo 2021; la metodología de calificación se mantiene). Calificación de cada parcial según ítems bien (base = 1 teórico + 2 prácticos): base → 6D, complementa práctica (de 2 prácticos, al menos 1 bien; si aprueba pasa a 8D); base + 1 → 8D; base + 2 → 9D; base + 3 → 10D; solo 3 prácticos → 6D, complementa teoría (de 2 teóricos, al menos 1 bien; si aprueba pasa a 8D); solo 4 prácticos → 7D, complementa teoría; solo 2 prácticos → 6, complementa teoría y práctica (de 2 teóricos y 2 prácticos, al menos 1 bien de cada tipo; si aprueba pasa a 8D); cualquier otro caso → 1 a 5 (insuficiente). Recuperación para aprobación directa: solo uno de los dos parciales, en una única oportunidad; con al menos 2 prácticos bien se rinde la evaluación complementaria, en cualquier otro caso (incluso ausente) el parcial completo, que requiere 8D. Si no aprueba o no se presenta al complemento, se firman los TP y pasa a final; en el recuperatorio completo sin 8D, para la firma solo cuentan los prácticos. Para la firma, cada parcial tiene dos oportunidades de recuperación; quien deba recuperar ambos rinde una evaluación integradora de 6 prácticos (3 de P1 y 3 de P2) y aprueba con 3 bien, al menos 1 de cada parcial. Los ítems teóricos salen del listado de requerimientos teóricos para el examen final de la guía de TP; si es una definición o un enunciado, se complementa con una pregunta o ejercicio de interpretación. Final (aprobación no directa): modalidad virtual, 2 horas, 10 preguntas, mínimo 6 correctas (6 puntos). Temas: P1 hasta extremos inclusive (TP0 a TP6); P2 el resto del programa (TP7 a TP11)."
+  },
+  "sesiones": [],
+  "extra": {
+    "nivel_inicial": "2026-09-24: todos los temas de u1–u5 en nivel 1 porque el estudiante asistió a todas las clases de TP0–TP6 (conocimiento superficial, sin ejercicios resueltos solo). Las fechas de las clases no están registradas; solo Taylor tiene ultimo_repaso (sesión guiada del 23/09)."
+  }
+}
