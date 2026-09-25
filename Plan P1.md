@@ -27,16 +27,27 @@ Reglas: un ítem por vez · timer en el celular · si te trabás más de 5 min, 
 
 | # | Ítem | Modelo (guiado) | Recu (solo) | Estado |
 |---|---|---|---|---|
-| 1 | E1 — Taylor / potencias | ⬜ | ⬜ | ⬜ |
-| 2 | E4 — Extremos | ⬜ | ⬜ | ⬜ |
-| 3 | T2 — V o F | ⬜ | ⬜ | ⬜ |
-| 4 | T1 — Derivada direccional | ⬜ | ⬜ | ⬜ |
+| 1 | E1 — Taylor / potencias | ✅ | ✅ | 🟡 |
+| 2 | E4 — Extremos | ✅ | ✅ | 🔴 |
+| 3 | T2 — V o F | ✅ | ✅ | 🔴 |
+| 4 | T1 — Derivada direccional | ✅ | ✅ | 🟡 |
 | 5 | E2 — Implícita + aprox. lineal | ⬜ | ⬜ | ⬜ |
 | 6 | E3 — Recta normal ∩ curva | ⬜ | ⬜ | ⬜ |
 
 **Tipos en 🟢: 0 / 6**
 
 ## Horario
+
+> **Reajuste (25/09, 04:30):** la noche se hizo como repaso por preguntas de a una, hasta las ~04:30, y cubrió E1, E4, T2 y T1 (la columna "Recu (solo)" del checklist equivale a las preguntas respondidas solo). E2 y E3 pasan al viernes; el horario del viernes de abajo reemplaza al original.
+>
+> | Hora | Bloque |
+> |---|---|
+> | ~13:00 | despertar |
+> | 13:30 – 14:15 | **E2** |
+> | 14:15 – 15:00 | **E3** |
+> | 15:00 – 16:00 | repaso de errores de E1, E4, T2 y T1 (preguntas nuevas) |
+> | 16:00 – 16:30 | vuelta rápida por los 6 tipos, solo el planteo |
+> | 16:30 | cortar y preparar todo para ir al parcial |
 
 ### Jueves a la noche (reajustado a las 22:50: se arrancó más tarde)
 

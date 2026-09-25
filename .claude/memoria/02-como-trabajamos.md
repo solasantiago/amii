@@ -22,6 +22,19 @@ Ante una discrepancia, gana el PDF de la cátedra por sobre cualquier resumen pr
 - Usar la notación y el método que usa la cátedra en sus propios resueltos, no una alternativa de otro libro, salvo que se pida explícitamente comparar métodos.
 - Al resolver un ejercicio de la guía, citar de qué TP y número es (ej. "TP6, ejercicio 4b") para poder ubicarlo después.
 - Al explicar teoría, dejar explícito qué parte es definición/enunciado formal y qué parte es interpretación o ejemplo — en los parciales los ítems teóricos evalúan justamente esa distinción (ver `CLAUDE.md`, sección de régimen de evaluación).
+- **Matemática en el chat:** el estudiante lee las respuestas en la terminal, donde el LaTeX no se renderiza. En los mensajes del chat, escribir con Unicode en texto plano (x², (x+3)³, ∂f/∂x, f_x, ∇f, ≤, ≠, matrices como `[a b; c d]`), y usar bloques de código para alinear cuentas. Los archivos del repo (`Resueltos propios/`, memoria) siguen con `$...$`, porque se leen en GitHub.
+- **Zona horaria:** el estudiante está en Argentina (UTC-3). La fecha del sistema puede estar en UTC e ir un día adelantada a la noche. Para la hora local: `TZ=America/Argentina/Buenos_Aires date`.
+
+### Modo repaso por preguntas
+
+Formato acordado el 24/09 para repasar antes de un parcial:
+
+- **Una pregunta por vez.** El estudiante responde en el chat; se corrige con ✅, ⚠️ (a medias) o ❌, se da la respuesta correcta con el porqué, y se sigue con la próxima.
+- **Enunciados autocontenidos y concretos**, redactados como en el parcial, con la función o el polinomio explícito. El estudiante no tiene el PDF delante, solo ve lo que se le escribe. Una pregunta abstracta ("te piden un polinomio p…") lo confundió.
+- **Funciones distintas a las del modelo** para practicar el método, y el ítem del modelo como última pregunta del bloque ("el ítem completo").
+- **Siempre se pueden hacer preguntas** en el medio. Se responden y después se retoma la pregunta pendiente.
+- **Encabezado de progreso** al inicio de cada respuesta, con la hora local real (consultada con `date`, nunca estimada), una barra de avance por ítems, el ritmo y la hora de fin proyectada. Si el ritmo no da, decirlo en el encabezado.
+- **Estrellas (niveles en `lumen.json`):** no se suben por respuestas de esta sesión. Lo que sale mal se anota (notas del tema en `lumen.json` y "Errores frecuentes propios" del `1x-*.md`), y el nivel sube recién cuando lo responde bien en un repaso posterior, con una pregunta nueva equivalente, no la misma.
 
 ### Formato de un ejercicio resuelto en `Resueltos propios/`
 

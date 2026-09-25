@@ -14,7 +14,7 @@ _(completar a medida que se estudia el tema — no inventar contenido acá sin h
 
 ## Errores frecuentes propios
 
-_(completar cuando se detecten al resolver ejercicios)_
+- T1 del modelo de P1 (derivada direccional de $h=f/g$), repaso del 25/09: planteo correcto ($\nabla h$ por regla del cociente y producto escalar con el versor), pero puso $g_x^2$ en vez de $g^2$ en el denominador. Además justificó diciendo que "el gradiente es derivable" en vez de "$h$ es $C^1$, luego diferenciable".
 
 ## Estado
 

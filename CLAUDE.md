@@ -72,6 +72,7 @@ El contenido matemático fino (definiciones, teoremas, métodos de resolución, 
 - **`Resueltos propios/`**: un archivo Markdown por TP con las resoluciones propias (GitHub renderiza LaTeX en Markdown con `$...$` / `$$...$$`, no hace falta compilar nada).
 - **`Estructura evaluaciones.pdf`**: régimen de evaluación y calificación (ver resumen arriba).
 - **`.claude/memoria/`**: memoria persistente del asistente (índice, estado, forma de trabajo, y resumen por TP).
+- **`SETUP.md`**: pasos para retomar el repo en otra máquina (clonar, configurar Claude Code, validar `lumen.json`).
 
 ## Estado de avance
 

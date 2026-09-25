@@ -20,6 +20,14 @@ _(ninguno registrado todavía — completar a medida que se cierren temas)_
 
 - TP7 a TP11 (P2): integrales curvilíneas, múltiples, flujo, teoremas integrales, EDO. Sin fecha de P2 todavía — actualizar acá y en `CLAUDE.md` en cuanto se confirme.
 
+## Última sesión (24/09 23:00 – 25/09 04:30)
+
+Repaso por preguntas de a una (el estudiante responde en el chat, se corrige y se anota). Ítems cubiertos: E1, E4, T2, T1. Quedaron para el viernes a la tarde: E2 y E3.
+
+- E1 (Taylor): 4/7 bien. E4 (extremos): 1 bien, 1 a medias, 2 mal. T2: 0 bien, 1 a medias. T1: fórmula bien, condición mal; ítem completo con error en el denominador.
+- Errores concretos anotados en `16-tp6-*.md`, `14-tp4-*.md`, `13-tp3-*.md` y en `notas` de `lumen.json`.
+- **Niveles sin cambios, a pedido del estudiante:** un tema sube recién cuando responde bien, en un repaso posterior, lo que falló.
+
 ## Próximo paso sugerido
 
-Con P1 el 25/09/2026, priorizar repasar TP0-TP6 (presentación + resueltos de cada uno) y completar los `1x-*.md` correspondientes con teoría resumida y errores frecuentes detectados.
+Viernes 25/09 (P1 a las 19 hs), según `Plan P1.md`: E2 y E3 con el mismo formato de preguntas, después repasar los errores de E1, E4, T2 y T1 (preguntas nuevas, equivalentes a las falladas), y vuelta rápida por los 6 tipos.
