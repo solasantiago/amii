@@ -4,7 +4,9 @@
 
 ## Ubicación en la cursada
 
-Preparando **P1** (temas hasta extremos inclusive: TP0 a TP6). **P1 es el viernes 25/09/2026.** P2 todavía no tiene fecha definida.
+Preparando **P1** (temas hasta extremos inclusive: TP0 a TP6). **P1 es el viernes 25/09/2026 a las 19 hs (hora Argentina).** P2 todavía no tiene fecha definida.
+
+Plan de repaso para P1 y checklist de avance: `Plan P1.md` (raíz del repo). Los dos modelos de `Modelos de parcial/` tienen la misma estructura (T1 derivada direccional, T2 V/F, E1 Taylor en potencias, E2 implícita + aprox. lineal, E3 recta normal ∩ curva, E4 extremos libres); el repaso se organiza por esos 6 tipos de ítem.
 
 ## Temas cerrados
 

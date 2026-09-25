@@ -23,7 +23,7 @@ Repositorio de estudio **individual** para la cátedra de Análisis Matemático 
 Resumen de `Estructura evaluaciones.pdf` (ciclo lectivo 2021 — la metodología de calificación se mantiene; las fechas de esta cursada están abajo).
 
 - Se toman dos parciales, **P1** y **P2**. Cada uno se compone de 2 ítems teóricos (T1, T2) y 4 ítems prácticos (E1-E4).
-  - **P1:** viernes 25/09/2026. Temas hasta extremos inclusive → TP0 a TP6.
+  - **P1:** viernes 25/09/2026, 19 hs. Temas hasta extremos inclusive → TP0 a TP6.
   - **P2:** fecha aún no definida. Resto del programa → TP7 a TP11.
 - **Aprobación directa:** ambos parciales aprobados con mínimo **8D**, respondiendo bien 4 de los 6 ítems con al menos 1 teórico.
 - **Regularidad (sin aprobación directa):** ambos parciales con mínimo 6 puntos, resolviendo bien 2 de los 4 ítems prácticos (no cuenta lo teórico).
